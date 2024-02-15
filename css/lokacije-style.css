@@ -1,0 +1,200 @@
+body{
+    height: 2950px;
+}
+.slika_prodavnice{
+    height: 250px;
+    margin-left: 50px;
+}
+.prodavnice img{
+    height: 100%;
+}
+.prodavnice{
+    position: absolute;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    top:80px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.bg,.ns,.ks,.ni{
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 900px;
+    border-radius:20px;
+    transition: width 0.5s;
+}
+.bg:hover,.ns:hover,.ks:hover,.ni:hover{
+    width: 920px;
+}
+.prikaz{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.otvori-mapu{
+    width: 400px;
+    height: 150px;
+    background-color: peachpuff;
+    border-radius: 10px;
+    border-width: 3px;
+    font-size: 40px;
+    font-weight: bold;
+    font-family:Sorts Mill Goudy;
+}
+iframe{
+    display: none;
+}
+.burger-icon {
+    right: 0;
+}
+
+nav {
+    right: 0;
+}
+
+
+
+@media (max-width:1160px){
+    iframe{
+        width: 800px;
+        height: 400px
+    }
+    .otvori-mapu{
+        width: 300px;
+        height: 100px;
+        font-size:25px;
+    }
+    .slika_prodavnice{
+       height: 200px;
+    }
+    .bg,.ns,.ks,.ni{
+        width: 720px;
+        font-size: 14px;
+    }
+    .bg:hover,.ns:hover,.ks:hover,.ni:hover{
+        width: 730px;
+    }
+    body{
+        height: 2600px;
+    }
+}
+
+@media (max-width:860px){
+    iframe{
+        width: 600px;
+        height: 300px
+    }
+    .otvori-mapu{
+        width: 200px;
+        height: 75px;
+        font-size:18px;
+    }
+    .slika_prodavnice{
+       height:150px;
+    }
+    .bg,.ns,.ks,.ni{
+        width: 550px;
+        font-size:12px;
+    }
+    .bg:hover,.ns:hover,.ks:hover,.ni:hover{
+        width: 560px;
+    }
+    body{
+        height: 2300px;
+    }
+}
+@media (max-width:660px){
+    iframe{
+        width: 400px;
+        height: 300px
+    }
+    .slika_prodavnice{
+       height:120px;
+    }
+    .bg,.ns,.ks,.ni{
+        width: 370px;
+        font-size:8px;
+        flex-direction: column;
+    }
+    .bg:hover,.ns:hover,.ks:hover,.ni:hover{
+        width: 380px;
+    }
+    body{
+        height: 2500px;
+    }
+}
+
+@media (max-width:460px){
+    iframe{
+        width: 300px;
+        height: 200px
+    }
+    .otvori-mapu{
+        width: 150px;
+        height: 50px;
+        font-size:14px;
+    }
+    .slika_prodavnice{
+       height:100px;
+    }
+    .bg,.ns,.ks,.ni{
+        width: 240px;
+        font-size:6px;
+    }
+    .bg:hover,.ns:hover,.ks:hover,.ni:hover{
+        width: 250px;
+    }
+    body{
+        height: 2100px;
+    }
+}
+@media (max-width:335px){
+    iframe{
+        width: 180px;
+        height: 150px
+    }
+    .slika_prodavnice{
+       height:70px;
+    }
+    .bg,.ns,.ks,.ni{
+        width: 160px;
+        font-size:6px;
+    }
+    .bg:hover,.ns:hover,.ks:hover,.ni:hover{
+        width: 170px;
+    }
+    body{
+        height: 2000px;
+    }
+}
+@media (max-width:280px){
+    iframe{
+        width: 120px;
+        height: 120px
+    }
+    .otvori-mapu{
+        width: 100px;
+        height: 30px;
+        font-size:10px;
+    }
+    .slika_prodavnice{
+       height:40px;
+    }
+    .bg,.ns,.ks,.ni{
+        width: 110px;
+        font-size:5px;
+    }
+    .bg:hover,.ns:hover,.ks:hover,.ni:hover{
+        width: 115px;
+    }
+    body{
+        height: 1600px;
+    }
+}

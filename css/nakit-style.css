@@ -1,0 +1,112 @@
+body{
+    height: 1080px;
+}
+.proizvodi{
+    display: flex;
+    font-family: Oswald;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: absolute;
+    justify-content: space-around;
+    width: 100%;
+    top:80px;
+}
+.proizvod img{
+    display: flex;
+    width: 200px;
+    height: 200px;
+    border-style:solid;
+    border-color: goldenrod;
+}
+
+.proizvod{
+    margin-bottom: 30px;
+    transition: opacity 0.25s;
+}
+
+.proizvod:hover{
+    opacity: 0.8;
+}
+.naziv_proizvoda{
+    padding: 5px 5px 5px 5px;
+    background: whitesmoke;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.burger-icon {
+    z-index: 1;
+    right: 0;
+}
+
+nav {
+    z-index: 1;
+    right: 0;
+}
+
+@media (max-width:1240px){
+    .proizvod img{
+        width: 180px;
+        height: 180px;
+    }
+}
+
+@media (max-width:1120px){
+    .proizvod img{
+        width: 180px;
+        height: 180px;
+    }
+    body{
+        height: 1600px;
+    }
+}
+
+
+@media (max-width:740px){
+    .proizvod img{
+        width: 200px;
+        height: 200px;
+    }
+    body{
+        height: 2000px;
+    }
+}
+
+@media (max-width:620px){
+    .proizvod img{
+        width: 250px;
+        height: 250px;
+    }
+    body{
+        height: 3300px;
+    }
+}
+
+@media (max-width:520px){
+    .proizvod img{
+        width: 150px;
+        height: 150px;
+    }
+    .proizvodi{
+        font-size:12px;
+    }
+    body{
+        height: 1700px;
+    }
+}
+
+@media (max-width:465px){
+    body{
+        height: 2300px;
+    }
+}
+
+@media (max-width:309px){
+    body{
+        height: 4900px;
+    }
+    .proizvodi img{
+        width: 180px;
+        height: 180px;
+    }
+}

@@ -1,0 +1,76 @@
+form {
+    margin-left: 10%;
+    opacity: 0.85;
+    background-color: whitesmoke;
+    position: absolute;
+    top: 80px;
+    padding: 30px;
+}
+
+body {
+    height: 1080px;
+}
+.burger-icon {
+    right: 0;
+}
+
+nav {
+    right: 0;
+}
+
+@media (max-width:515px) {
+    form {
+        margin-left: 40px;
+        font-size: 12px;
+    }
+
+}
+
+@media (max-width:415px) {
+    form {
+        margin-left: 5px;
+        font-size: 10px;
+    }
+
+}
+
+@media (max-width:350px) {
+    form {
+        margin-left: 5px;
+        font-size: 6px;
+        width: 140px;
+        height: 500px;
+    }
+
+    #ime {
+        width: 100px;
+        height: 15px;
+    }
+
+    #prezime {
+        width: 100px;
+        height: 15px;
+    }
+
+    #poruka {
+        width: 120px;
+        height: 50px;
+    }
+
+}
+
+@media (min-height:1090px) and (min-width:900px) {
+    body {
+        height: 1400px;
+    }
+    form{
+        font-size: 30px;
+    }
+}
+
+input:focus:valid{
+    background-color: lightgreen;
+}
+input:focus:invalid{
+    background-color: lightcoral;
+}

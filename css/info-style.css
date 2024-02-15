@@ -1,0 +1,58 @@
+.telo{
+    display: flex;
+    justify-content: center;
+}
+.informacije{
+    display: flex;
+    flex-direction: column;
+    position:absolute;
+    top:100px;
+    width: 60%;
+    text-align: center;
+}
+
+.informacije div{
+    background-color: whitesmoke;
+    padding:15px 20px 15px 20px;
+    opacity: 0.85;
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+@media(max-width:720px){
+    body{
+        height: 1200px;
+    }
+}
+
+@media(max-width:580px){
+    body{
+        height: 1500px;
+    }
+}
+
+@media(max-width:480px){
+    .informacije{
+        font-size: 14px;
+    }
+}
+
+
+@media(max-width:375px){
+    .informacije{
+        width: 70%;
+    }
+}
+
+@media(max-width:340px){
+    .informacije{
+        font-size: 12px;
+    }
+}
+
+@media(max-width:250px){
+   .informacije{
+    width: 80%;
+   }
+}
